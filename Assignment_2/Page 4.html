@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Frame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .frame {
+            background: url('file:///C:/Users/ptirt/OneDrive/Pictures/main.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 259px;
+            height: 461px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .frame img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            opacity: 0.7;
+        }
+        .frame h1 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: white;
+        }
+        .frame input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .frame input::placeholder {
+            color: #666;
+        }
+        .frame button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #00f6ff;
+            border: 1px solid #00f6ff;
+            border-radius: 25px;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            width: 80%;
+            margin-top: 10px;
+        }
+        .frame button:hover {
+            background-color: #00d9e0;
+            border-color: #00d9e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <img src="file:///C:/Users/ptirt/OneDrive/Pictures/logo.jpg" alt="Logo">
+        <h1>SIGN UP</h1>
+        <input type="text" placeholder="NAME">
+        <input type="email" placeholder="E-MAIL">
+        <input type="password" placeholder="PASSWORD">
+        <button>SUBMIT</button>
+    </div>
+</body>
+</html>

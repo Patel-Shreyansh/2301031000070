@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4; 
+        }
+        .frame {
+            background: url('file:///C:/Users/ptirt/OneDrive/Pictures/main.jpg') no-repeat center             center;
+            background-size: cover; 
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 259px; 
+            height: 461px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            align-items: center;
+            position: relative; 
+        }
+        .buttons {
+            position: absolute;
+            bottom: 20px;
+            left: 50%; 
+            transform: translateX(-50%); 
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+            width: 80%; 
+        }
+        .buttons button {
+            padding: 15px 20px; 
+            font-size: 1.2em; 
+            color: white; 
+            background-color: #71D1D4; 
+            border: 1px solid #71D1D4; 
+            border-radius: 25px; 
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            width: 100%;
+        }
+        .buttons button:hover {
+            background-color: #00d9e0; 
+            border-color: #71D1D4; 
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="buttons">
+            <button>Sign In</button>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>

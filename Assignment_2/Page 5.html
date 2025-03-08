@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4; 
+        }
+        .frame {
+            background: url('file:///C:/Users/ptirt/OneDrive/Pictures/lay.jpg') no-repeat center center;
+            background-size: cover; 
+            padding: 20px;
+            
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 259px; 
+            height: 461px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            align-items: center;
+            position: relative; 
+        }
+        .logo {
+            border-radius: 45px; 
+            position: absolute;
+            top: 20px; 
+            left: 20px;
+            width: 30px; 
+            height: 30px;
+        }
+        .frame h1 {
+            margin: 60px 0 20px 0; 
+            font-size: 2em;
+            color: white; 
+        }
+        .search-container {
+            position: relative;
+            width: 100%;
+            margin: 8px 0;
+        }
+        .search-bar {
+            padding: 10px 40px 10px 10px; 
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box; 
+            color: black; 
+        }
+        .search-bar::placeholder {
+            color: black; 
+        }
+        .search-logo {
+            background-color: white; 
+            border-radius: 50%; 
+            padding: 5px; 
+            position: absolute;
+            right: 10px; 
+            top: 50%;
+            transform: translateY(-50%); 
+            width: 20px; 
+            height: 20px;
+            cursor: pointer; 
+        }
+        .frame button {
+            margin: 8px 0; 
+            padding: 10px 20px;
+            font-size: 1em;
+            color: black; 
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            font-weight: bold; 
+        }
+        .frame button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        
+        <img src="file:///C:/Users/ptirt/OneDrive/Pictures/logo.jpg" alt="Logo" class="logo">
+        <h1>WELCOME</h1>
+        
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <img src="file:///C:/Users/ptirt/OneDrive/Pictures/logo2.jpg" alt="Search Logo" class="search-logo">
+        </div>
+        
+        <button>CODING</button>
+        <button>INTRODUCTION</button>
+        <button>COURSES</button>
+        <button>VIDEOS</button>
+    </div>
+</body>
+</html>
